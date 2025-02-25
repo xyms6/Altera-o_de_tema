@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #000;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #3a3a3a;
+}
+
+.tema-escuro{
+    background-color: #222;
+    color: #fff;
+}
+
+.tema-escuro button{
+    background-color: #fff;
+    color: #000;
+}
+
+.tema-escuro button:hover{
+    background: #ddd;
+}
