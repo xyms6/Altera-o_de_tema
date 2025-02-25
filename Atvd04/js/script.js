@@ -1,5 +1,5 @@
-const button = document.getElementById('trocarCor');
+const interruptor = document.getElementById('trocarTema');
 
-button.addEventListener("click", () => {
+interruptor.addEventListener('change', () => {
     document.body.classList.toggle('tema-escuro');
 });
